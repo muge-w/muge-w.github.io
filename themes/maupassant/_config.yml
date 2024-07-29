@@ -71,7 +71,7 @@ toc_number: true ## If you want to add list number to toc please set the value t
 shareto: false ## If you want to use the share button please set the value to true, and you must have hexo-helper-qrcode installed.
 busuanzi: false ## If you want to use Busuanzi page views please set the value to true.
 wordcount: false ## If you want to display the word counter and the reading time expected to spend of each post please set the value to true, and you must have hexo-wordcount installed.
-widgets_on_small_screens: false ## Set to true to enable widgets on small screens.
+widgets_on_small_screens: true ## Set to true to enable widgets on small screens.
 canvas_nest:
   enable: false ## If you want to use dynamic background please set the value to true, you can also fill the following parameters to customize the dynamic effect, or just leave them blank to keep the default effect.
   color: ## RGB value of the color, e.g. "100,99,98"
@@ -97,7 +97,7 @@ plantuml: ## Using PlantUML to generate UML diagram, must install hexo-filter-pl
 copycode: true ## If you want to enable one-click copy of the code blocks, set the value to true.
 dark: true ## If you want to toggle between light/dark themes, set the value to true.
 totop: true ## If you want to use the rocketship button to return to the top, set the value to true.
-external_css: false ## If you want to load an external CSS file, set the value to true and create a file named "external.css" in the source/css folder.
+external_css: true ## If you want to load an external CSS file, set the value to true and create a file named "external.css" in the source/css folder.
 post_content_length: 180 ## Set the length of the post summary displayed on home page when no description written.
 
 menu:
@@ -128,7 +128,7 @@ info:
     #   outlink: https://twitter.com/username
     #   message: Twitter
     - name: envelope
-      outlink: 2732320569@qq.com
+      outlink: 
       message: Email
     - name: github
       outlink: https://github.com/muge-dot
@@ -153,6 +153,8 @@ timeline:
 # Static files
 js: js
 css: css
+
+
 
 # Theme version
 version: 1.0.0
