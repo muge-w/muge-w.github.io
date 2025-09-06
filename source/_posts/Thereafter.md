@@ -1,5 +1,5 @@
 ---
-title: 后来
+title: Thereafter
 ---
 最内向的人成了销冠；
 最想闯的人留在了老家；
